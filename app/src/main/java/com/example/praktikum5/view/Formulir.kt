@@ -47,7 +47,7 @@ fun FormIsian(
             OutlinedTextField(
                 value = "",
                 singleLine = true,
-                modifer = Modifier
+                modifier = Modifier
                     .padding(top = 20.dp)
                     .width(250.dp),
                 label = {Text(text = "Nama Lengkap")},
