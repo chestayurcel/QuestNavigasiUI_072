@@ -53,7 +53,7 @@ fun TampilData(
             Column(modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_medium)),
                 verticalArrangement = Arrangement
                     .spacedBy (dimensionResource(id = R.dimen.padding_small))) {
-                items.forEach { items ->
+                items.forEach { item ->
                     Column {
                         Text(text = item.first.uppercase(),
                             fontSize = 16.sp)
